@@ -82,8 +82,11 @@ lm-kit/bge-m3-gguf/bge-m3-Q4_K_M.gguf@1024
 The application supports multiple database backends:
 
 PostgreSQL (Recommended):
+
 Create a free serverless PostgreSQL database at Neon in a few clicks
+
 Get instant provisioning and scale-to-zero capability
+
 Connection string format: postgresql://user:pass@ep-xyz.region.aws.neon.tech/dbname
 
 
@@ -97,20 +100,27 @@ streamlit run local_main.py
 2. Configure the Application:
 
 Enter LLM model path
+
 Enter embedder model path
+
 Set database URL
+
 Click "Save Configuration"
 
 3. Upload Documents:
 
 Upload PDF files through the interface
+
 Wait for processing completion
 
 4. Start Chatting:
 
 Ask questions about your documents
+
 Get responses using local LLM
+
 Fallback to general knowledge when needed
+
 
 
 
