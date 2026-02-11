@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Models & Caches
+.flashrank_cache/
+models/
+*.onnx
+*.gguf
+
+# Database
+*.db
+
+# OS
+.DS_Store
+
+# Temporary
+temp_*.pdf
