@@ -4,11 +4,36 @@
 
 ## Quick Start
 
-# LLM Model
+## LLM Model
 bartowski/Llama-3.2-3B-Instruct-GGUF/Llama-3.2-3B-Instruct-Q4_K_M.gguf@4096
 
-# Embedder Model
+## Embedder Model
 lm-kit/bge-m3-gguf/bge-m3-Q4_K_M.gguf@1024
+
+## Features
+
+### Local LLM Integration:
+
+Uses llama-cpp-python models for local inference
+Supports various quantization formats (Q4_K_M recommended)
+Configurable context window sizes
+
+
+### Document Processing:
+
+PDF document upload and processing
+Automatic text chunking and embedding
+Hybrid search combining semantic and keyword matching
+Reranking for better context selection
+
+
+### Multi-Model Integration:
+
+Local LLM for text generation (e.g., Llama-3.2-3B-Instruct)
+Local embeddings using BGE models
+FlashRank for local reranking.
+
+
 
 
 
